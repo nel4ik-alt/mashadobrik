@@ -393,7 +393,7 @@ details p { padding-bottom: 24px; max-width: 40em; font-size: 16px; line-height:
   .s6 { left: auto; right: calc(186 * var(--w)); top: calc(322 * var(--v)); color: var(--green); }
   .s7 { left: auto; right: calc(216 * var(--w)); top: calc(358 * var(--v)); color: var(--green); }
   .p-walk { left: auto; right: var(--gutter); top: calc(14 * var(--v)); width: calc(118 * var(--s)); height: calc(150 * var(--s)); border-radius: 50%; }
-  .p-face { left: var(--gutter); top: calc(134 * var(--v)); width: calc(134 * var(--s)); height: calc(176 * var(--s)); border-radius: 999px 999px 0 0; }
+  .p-face { left: var(--gutter); top: calc(134 * var(--v)); height: min(calc(205 * var(--s)), calc(170 * var(--v))); width: auto; aspect-ratio: 156 / 205; border-radius: 999px 999px 0 0; }
   .p-sun { left: auto; right: calc(36 * var(--w)); top: calc(284 * var(--v)); width: calc(130 * var(--s)); height: calc(130 * var(--s)); }
   .hero__btn { left: var(--gutter); top: calc(436 * var(--v)); width: calc(100% - 2 * var(--gutter)); height: calc(52 * var(--s)); min-height: 44px; font-size: calc(17 * var(--s)); border-radius: 14px; }
 }
