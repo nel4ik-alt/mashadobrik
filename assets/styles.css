@@ -367,6 +367,13 @@ details p { padding-bottom: 24px; max-width: 40em; font-size: 16px; line-height:
 .legal h2 { font: 500 21px/1.25 var(--f-body); color: var(--forest); margin: 48px 0 16px; scroll-margin-top: 80px; }
 .legal p, .legal ul { margin-bottom: 16px; }
 .legal ul { list-style: "— "; padding-left: 24px; }
+.help { list-style: none !important; padding: 0 !important; display: grid; gap: 14px; }
+.help li { display: grid; gap: 2px; }
+.help__contact { font-weight: 500; color: var(--forest); overflow-wrap: anywhere; }
+.help__contact a { color: var(--green); }
+.help__what { color: var(--ink, inherit); }
+.help__mail { font-weight: 400; user-select: all; }
+.emergency .emergency__link { display: inline; padding: 0; margin: 0; line-height: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .legal__note { padding: 16px 24px; background: var(--paper-deep); border-radius: 18px; font-size: .9375rem; }
 
 /* Первый экран до 1099 px: одна раскладка, на планшете по центру. Экран должен помещаться целиком:
